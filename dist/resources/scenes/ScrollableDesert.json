@@ -1,0 +1,17 @@
+{
+    "mapPath" : "resources/maps/desert/desert.json",
+    "shaderSourcePaths" : [
+        {"name":"SPRITE_VERTEX_SHADER", "path" : "resources/shaders/sprite/Sprite.vs"},
+        {"name":"SPRITE_FRAGMENT_SHADER", "path" : "resources/shaders/sprite/Sprite.fs"},
+        {"name":"TILED_LAYER_VERTEX_SHADER", "path" : "resources/shaders/tiledlayer/TiledLayer.vs"},
+        {"name":"TILED_LAYER_FRAGMENT_SHADER", "path" : "resources/shaders/tiledlayer/TiledLayer.fs"}
+    ],
+    "spriteTypePaths" : [
+        {"name":"MULTI_COLOR_BLOCK", "path" : "resources/animated_sprites/MultiColorBlock/MultiColorBlock.json"},
+        {"name":"RED_CIRCLE_MAN", "path" : "resources/animated_sprites/RedCircleMan/RedCircleMan.json"},
+        {"name":"LADYBUG", "path" : "resources/animated_sprites/ladybug2/ladybug2.json"},
+        {"name":"PRAYING_MANTIS", "path" : "resources/animated_sprites/praying_mantis2/praying_mantis2.json"},
+        {"name":"FIREFLY", "path" : "resources/animated_sprites/firefly2/firefly2.json"}
+        
+    ]
+}
